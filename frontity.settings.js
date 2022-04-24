@@ -2,7 +2,7 @@ const settings = {
   "name": "iconic",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "https://iconicmotif.dreamhosters.com/",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
@@ -18,20 +18,12 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Projects",
+              "/projects/"
             ],
             [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "Blog",
+              "/blog/"
             ]
           ],
           "featured": {
@@ -43,11 +35,13 @@ const settings = {
     },
     {
       "name": "@frontity/wp-source",
-      "state": {
-        "source": {
-          "url": "https://test.frontity.org"
-        }
-      }
+  "state": {
+    "source": {
+      "url": "https://iconicmotif.dreamhosters.com/",
+      "homepage": "/home",
+      "postsPage": "/blog",
+    }
+  }
     },
     "@frontity/tiny-router",
     "@frontity/html2react"
@@ -55,3 +49,4 @@ const settings = {
 };
 
 export default settings;
+
